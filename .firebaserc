@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "go-shopster"
+  },
+  "targets": {
+    "go-shopster": {
+      "hosting": {
+        "add-to-cart": [
+          "go-shopster"
+        ]
+      }
+    }
+  }
+}
