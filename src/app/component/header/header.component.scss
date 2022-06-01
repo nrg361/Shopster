@@ -1,0 +1,16 @@
+.form-control {
+    border-radius: 3px;
+    width: 600px;
+    margin-left: 20px;
+}
+.strong:hover{
+    cursor: pointer;
+}
+
+.search-icon {
+    position: absolute;
+    z-index: 10;
+    right: 50%;
+    top: 20px;
+    color: blue;
+}
