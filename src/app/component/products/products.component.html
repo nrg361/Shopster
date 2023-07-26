@@ -39,12 +39,9 @@
                 <p style="white-space: nowrap;overflow: hidden;text-overflow: ellipsis;max-width: 100ch;">
                     {{item.description}}</p>
                 <p><strong>Price:</strong> ${{item.price}}</p>
-                <button class="btn btn-primary" (click)=addtocart(item)
-                    *ngIf="!has(item)">Add to cart</button>
-                <button class="btn btn-primary" [routerLink]="['/cart']" *ngIf="has(item)">Go to
-                    cart</button>
+                <button class="btn btn-primary" (click)="addtocart(item)" *ngIf="!has(item)">Add to cart</button>
+                <button class="btn btn-primary" [routerLink]="['/cart']" *ngIf="has(item)">Go to cart</button>
             </div>
         </ng-container>
-
     </div>
 </div>

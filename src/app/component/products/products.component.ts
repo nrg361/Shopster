@@ -59,5 +59,4 @@ export class ProductsComponent implements OnInit {
     });
     return f;
   }
-
 }

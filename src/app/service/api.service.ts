@@ -10,7 +10,7 @@ export class ApiService {
   constructor(private http: HttpClient) { }
 
   getProduct(): any {
-    if (!this.products) this.products = this.http.get<any>("https://fakestoreapi.com/products").pipe(shareReplay(1));
+    if (!this.products) this.products = this.http.get("https://fakestoreapi.com/products").pipe(shareReplay(1));
     return this.products;
   }
 }
